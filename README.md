@@ -1,4 +1,4 @@
-## express_API_libdogecoin_barebones
+## express_libdogecoin_barebones
 
 **NOTE**: This program is for **EXAMPLE PURPOSES ONLY**.
 
