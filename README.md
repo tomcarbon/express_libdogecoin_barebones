@@ -29,7 +29,7 @@ To achieve this end, two programs are built:
 
 At this point the API should be available at localhost and ready for use.
 
-##HOW TO USE (EXAMPLES)
+## HOW TO USE (EXAMPLES)
 
 * From a browser: localhost:/privkey   
 * from the linux prompt: curl 127.0.0.1/privkey
