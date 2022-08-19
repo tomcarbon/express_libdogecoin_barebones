@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "009ce424-5ade-417a-b051-c8d30e7b859e",
+		"name": "express_libdogecoin_barebones",
+		"description": "This bare-bones project demonstrates a handshake between the libdogecoin library (C), and an express REST server (JavaScript). It is made to be as simple as possible in order to isolate just the key parts of the handshake.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "local",
+			"item": [
+				{
+					"name": "Instructions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost",
+						"description": "Provide instructions if only the / endpoint was provided."
+					},
+					"response": []
+				},
+				{
+					"name": "Get privkey/address pair",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost/privkey",
+						"description": "Retrieve a private key and its corresponding Dogecoin address from the API."
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

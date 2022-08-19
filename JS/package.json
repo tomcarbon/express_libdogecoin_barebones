@@ -1,0 +1,16 @@
+{
+  "name": "libdogecoin_api_example",
+  "version": "1.0.0",
+  "description": "This program is a barebones example of an express API which calls a C program wrapper executable for libdogecoin library functions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.18.1"
+  }
+}
