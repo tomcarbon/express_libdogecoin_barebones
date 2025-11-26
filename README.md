@@ -4,7 +4,7 @@
 
 ## INTRODUCTION 
 
-This project demonstrates a handshake between the libdogecoin library and a Javascript express API, enabling the user to generate libdogecoin-originated privkey/address pairs from (e.g.) any web browser.
+This project demonstrates a handshake between the libdogecoin library and a Javascript express API, enabling the user to generate libdogecoin-originated privkey/address pairs from any web browser (e.g.).
 
 To achieve this end, two programs are built:
 	1) A Linux executable, written in C.
@@ -31,7 +31,7 @@ At this point the API should be available at localhost and ready for use.
 
 ## HOW TO USE (EXAMPLES)
 
-* From a browser: localhost:/privkey   
-* from the linux prompt: curl 127.0.0.1/privkey
-* Just use the qkey executable from the linux command prompt with no arguments
-* The Postman collection may be used
+* From a browser: localhost:/privkey and/or localhost/privkey
+* The Postman collection may be used.
+* From the linux command prompt: curl 127.0.0.1/privkey
+* From the linux command prompt: navigate to the C directory and directly run the qkey executable. 
